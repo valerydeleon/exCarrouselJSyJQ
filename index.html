@@ -6,27 +6,31 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	<div class="carousel">
-		<div data-slide="0" class="carousel-content active">
-			<img src="" alt="Imagen 1">
-		</div>
-		<div data-slide="1" class="carousel-content ">
-			<img src="" alt="Imagen 2">
-		</div>
-		<div data-slide="2" class="carousel-content ">
-			<img src="" alt="Imagen 3">
-		</div>
-		<div data-slide="3" class="carousel-content">
-			<img src="" alt="Imagen 4">
-		</div>
-	</div>
+	<section class="carousel">
+        <div id="contenedor">
+            <div data-slide="0" class="carousel-content active">
+                <img src="assets/img/img-1.jpg" alt="Imagen 1">
+            </div>
+            <div data-slide="1" class="carousel-content ">
+                <img src="assets/img/img-2.jpg" alt="Imagen 2">
+            </div>
+            <div data-slide="2" class="carousel-content ">
+                <img src="assets/img/img-3.jpg" alt="Imagen 3">
+            </div>
+            <div data-slide="3" class="carousel-content">
+                <img src="assets/img/img-4.jpg" alt="Imagen 4">
+            </div>
+        </div>
+	</section>
+	
+	<section id="btn-prev" class="previous" id="btn-prev">&#60;</section>
+	<section id="btn-next" class="previous" id="btn-prev">&#62;</section>
+	
 	<div class="controls">
-		<a href="#" class="previous">&#60;</a>
-		<button type="button" data-target="0" class="control"></button>
-		<button type="button" data-target="1" class="control"></button>
-		<button type="button" data-target="2" class="control"></button>
-		<button type="button" data-target="3" class="control"></button>
-		<a href="#" class="next">&#62;</a>
+		<button type="button" data-target="0" class="control">1</button>
+		<button type="button" data-target="1" class="control">2</button>
+		<button type="button" data-target="2" class="control">3</button>
+		<button type="button" data-target="3" class="control">4</button>
 	</div>
 	
 	<script src="assets/js/jquery-3.2.1.min.js"> </script> 
